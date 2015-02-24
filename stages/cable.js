@@ -8,7 +8,7 @@ var cableStage = {
         /**************************************************************************************/
         // background, score and sound 
         /**************************************************************************************/
-        game.load.spritesheet('homeBackground','assets/home/Home Lighting on-off.png',800,600);
+        game.load.atlas('homeBackground','assets/home/home.png','assets/home/home.json');
 
         /**************************************************************************************/
         // logger
@@ -26,7 +26,7 @@ var cableStage = {
         
         var background = game.add.sprite(0,0,'homeBackground');
 
-        background.animations.add('animate',[0,1,2,3],10,true);
+        background.animations.add('animate',[0,1],10,true);
         
         background.animations.play('animate');
         
