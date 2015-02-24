@@ -11,6 +11,12 @@ var menuStage = {
     
     create : function() {
 
+
+        /**************************************************************************************/
+        // start the P2JS physics system
+        /**************************************************************************************/
+        game.physics.startSystem(Phaser.Physics.P2JS);
+        
         /**************************************************************************************/
         // for just developing add button hear and set an action for that button to start your stage
         // ex :
@@ -27,7 +33,7 @@ var menuStage = {
         /**************************************************************************************/
         // start the game stage
         /**************************************************************************************/
-        game.state.start('game');
+        game.state.start('cableStage');
         /**************************************************************************************/
         // logger
         console.log('menuStage : gameStage is started');
