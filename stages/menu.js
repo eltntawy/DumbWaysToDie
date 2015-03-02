@@ -2,10 +2,8 @@
  * Created by eltntawy on 21/02/15.
  */
 
-var menuStage = {
-    
+var menuStage = {    
     preload : function () {
-
         
     } ,
     
@@ -33,10 +31,15 @@ var menuStage = {
         /**************************************************************************************/
         // start the game stage
         /**************************************************************************************/
-        game.state.start('cableStage');
+        game.state.start('scoreStage');
+        
         /**************************************************************************************/
         // logger
         console.log('menuStage : gameStage is started');
     }
+
+    // , startCable: function () {
+    //     game.state.start('cableStage');
+    // }
     
 }
