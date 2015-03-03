@@ -59,12 +59,12 @@ var forkStage = {
             
         }
     },
-    
+
     // time allocated for stage
     duration: 5,
 
     endStage: function() {
-        game.state.start('cableStage');
+        game.state.start('scoreStage');
     },
 
     decreaseTimer: function () {

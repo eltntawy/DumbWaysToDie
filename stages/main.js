@@ -16,11 +16,12 @@ game.state.add('game', gameStage);          // the game stage
 
 game.state.add('cableStage', cableStage);          // the cable stage
 game.state.add('forkStage', forkStage);            // the fork stage
+game.state.add('runningStage', runningStage);            // the fork stage
 
 // globals
 var globals = {
 	// add your stage to this stages array to make the game choose randomly from it
-    stages: ['cableStage', 'forkStage'],
+    stages: ['cableStage', 'forkStage', 'runningStage'],
 
     score: 0,
     lives: 3
