@@ -61,8 +61,11 @@ var pokeTheBearStage = {
 
         if (game.input.activePointer.isDown){
 
-            if (game.physics.arcade.overlap(this.bearFace, this.pokeSafe))
-                console.log("got it")
+            //if (game.physics.arcade.overlap(this.bearFace, this.pokeSafe))
+            //    console.log("got it");
+
+            if(this.pokeSafe.getBounds().containsRect(this.bearFace.getBounds()))
+                console.log("got it");
         }
     },
 
