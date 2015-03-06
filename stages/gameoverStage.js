@@ -1,26 +1,53 @@
-/**
- * Created by eltntawy on 06/03/15.
- */
-
-
 var gameoverStage = {
-    preload: function() {
+    preload: function () {
 
-        game.load.image('background','assets/score/background.png')
-        game.load.atlas('player','assets/score/dance.png','assets/score/dance.json');
+        game.load.image('background', 'assets/score/background.png')
+        game.load.atlas('player', 'assets/score/dance.png', 'assets/score/dance.json');
+        game.load.image('playerDie', 'assets/score/die.png');
+        game.load.image('logo','assets/dwtd_logo.png');
 
+        game.load.image('playButtonUnpressed', 'assets/menu/playButtonUnpressed.png');
+        game.load.image('playButtonPressed', 'assets/menu/playButtonPressed.png');
 
     },
 
     create: function() {
 
-        var txt = 'Score \n'+score
-        scoreText = game.add.text(game.world.width/2,game.world.height/2 -100,txt, {fontsize: 10, fill: 'white'});
-        scoreText.anchor.setTo(0.5,0.5);
 
+        game.add.sprite(0, 0, 'background');
+        var logo = game.add.sprite(game.world.width/2, 100,'logo');
+        logo.anchor.setTo(.5,.5);
+
+        var die = game.add.sprite(game.world.width / 2 - 100, game.world.height - 200, 'playerDie');
+        die.scale.setTo(0.5, 0.5);
+        die.anchor.setTo(0.5, 0.5);
+
+        var die = game.add.sprite(game.world.width / 2, game.world.height - 200, 'playerDie');
+        die.scale.setTo(0.5, 0.5);
+        die.anchor.setTo(0.5, 0.5);
+
+
+        var die = game.add.sprite(game.world.width / 2 + 100, game.world.height - 200, 'playerDie');
+        die.scale.setTo(0.5, 0.5);
+        die.anchor.setTo(0.5, 0.5);
+
+
+        var txt = 'your score : ' + globals.score;
+        scoreText = game.add.text(game.world.width / 2, game.world.height / 2 - 100, txt, {fontsize: 28,fill: 'white'});
+        scoreText.anchor.setTo(0.5, 0.5);
+
+        scoreText = game.add.text(game.world.width / 2, game.world.height / 2 , 'Game Over', {fontsize: 28,fill: 'black'});
+        scoreText.anchor.setTo(0.5, 0.5);
+
+        this.btn = game.add.button(game.world.centerX, game.world.height - 100, 'playButtonUnpressed',this.startGameAgain);
+        this.btn.anchor.setTo(0.5,0.5);
     },
 
     update: function() {
 
+    },
+    startGameAgain : function () {
+        var nextLevel = globals.stages[game.rnd.integerInRange(0, globals.stages.length - 1)];
+        game.state.start(nextLevel);
     }
 }

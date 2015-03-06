@@ -17,7 +17,7 @@ var scoreStage = {
         game.load.image('background', 'assets/score/background.png')
         game.load.atlas('player', 'assets/score/dance.png', 'assets/score/dance.json');
         game.load.image('playerDie', 'assets/score/die.png');
-
+        game.load.image('logo','assets/dwtd_logo.png');
 
 	},
 
@@ -26,6 +26,12 @@ var scoreStage = {
 
 
         game.add.sprite(0, 0, 'background');
+
+        game.add.sprite(0, 0, 'background');
+        var logo = game.add.sprite(game.world.width/2, 100,'logo');
+        logo.anchor.setTo(.5,.5);
+
+
         if(globals.lives >= 1) {
             var player = game.add.sprite(game.world.width / 2 - 100, game.world.height - 200, 'player');
             player.scale.setTo(0.5, 0.5);

@@ -19,6 +19,7 @@ game.state.add('electricity_fail', electricityFail);          // the game stage
 game.state.add('forkStage', forkStage);            // the fork stage
 game.state.add('runningStage', runningStage);            // the fork stage
 game.state.add('pokeTheBearStage', pokeTheBearStage); //the poke stage
+game.state.add('gameoverStage',gameoverStage); // gameover stage
 
 // globals
 var globals = {

@@ -51,14 +51,14 @@ var menuStage = {
         /**************************************************************************************/
         // start the game stage
         /**************************************************************************************/
-        game.state.start('electricityStage');
+        //game.state.start('electricityStage');
         //game.state.start('pokeTheBearStage');
         //game.state.start('scoreStage');
         // these are for debugging single stages
         // game.state.start('runningStage');
         // game.state.start('forkStage');
         //game.state.start('scoreStage');
-        
+        game.state.start('gameoverStage');
         /**************************************************************************************/
         // logger
         console.log('menuStage : gameStage is started');
