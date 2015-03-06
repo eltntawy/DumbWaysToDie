@@ -14,6 +14,9 @@ game.state.add('menu', menuStage);          // for menu stage and game entry poi
 game.state.add('scoreStage', scoreStage);          // the score stage
 game.state.add('game', gameStage);          // the game stage
 
+game.state.add('electricityStage', electricityStage);          // the cable stage
+game.state.add('electricity_success', electricitySuccess);          // the game stage
+game.state.add('electricity_fail', electricityFail);          // the game stage
 game.state.add('cableStage', cableStage);          // the cable stage
 game.state.add('forkStage', forkStage);            // the fork stage
 game.state.add('runningStage', runningStage);            // the fork stage
