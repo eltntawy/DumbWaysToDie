@@ -21,7 +21,7 @@ var gameStage = {
         // background, score and sound 
         /**************************************************************************************/
         game.backgroundColor = 0xf545ff;
-        scoreText = game.add.text(10,10,'Game Score : '+score,{fontsize: 60, fill: 'white'});
+        scoreText = game.add.text(10,10,'Game Score : ' + score,{fontsize: 60, fill: 'white'});
         /**************************************************************************************/
 
 

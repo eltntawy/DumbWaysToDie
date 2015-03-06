@@ -2,10 +2,8 @@
  * Created by eltntawy on 21/02/15.
  */
 
-var menuStage = {
-    
+var menuStage = {    
     preload : function () {
-
         
     } ,
     
@@ -34,9 +32,19 @@ var menuStage = {
         // start the game stage
         /**************************************************************************************/
         game.state.start('electricityStage');
+        game.state.start('pokeTheBearStage');
+
+        // these are for debugging single stages
+        // game.state.start('runningStage');
+        // game.state.start('forkStage');
+        
         /**************************************************************************************/
         // logger
         console.log('menuStage : gameStage is started');
     }
+
+    // , startCable: function () {
+    //     game.state.start('cableStage');
+    // }
     
 }
