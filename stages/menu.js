@@ -2,9 +2,20 @@
  * Created by eltntawy on 21/02/15.
  */
 
-var menuStage = {    
+var menuStage = {
     preload : function () {
-        
+        game.load.image('playButtonUnpressed', 'assets/menu/playButtonUnpressed.png');
+        game.load.image('playButtonPressed', 'assets/menu/playButtonPressed.png');
+
+        game.load.image('soundPressed', 'assets/menu/soundPressed.png');
+        game.load.image('soundUnpressed', 'assets/menu/soundUnpressed.png');
+
+        game.load.image('noSoundPressed', 'assets/menu/noSoundPressed.png');
+        game.load.image('noSoundUnpressed', 'assets/menu/noSoundUnpressed.png');
+
+        game.load.image('station', 'assets/menu/station.png');
+
+        game.load.audio('music', 'assets/menu/music.mp3');
     } ,
     
     create : function() {
@@ -21,6 +32,12 @@ var menuStage = {
         /**************************************************************************************/
         var btn = game.add.button(game.world.centerX,game.world.centerY,'btn1',this.clickAction);
         btn.anchor.setTo(0.5,0.5);
+
+        this.soundBtn = game.add.button(game.world.width - 100, game.world.height - 100, 'soundUnpressed',this.toggleSound);
+        this.soundBtn.anchor.setTo(0.5,0.5);
+
+        game.music = game.add.audio('music');
+        game.music.play('', 0, 1, true);
         /**************************************************************************************/
     }, 
     update : function () {
@@ -37,14 +54,19 @@ var menuStage = {
         // these are for debugging single stages
         // game.state.start('runningStage');
         // game.state.start('forkStage');
+        game.state.start('scoreStage');
         
         /**************************************************************************************/
         // logger
         console.log('menuStage : gameStage is started');
-    }
+    },
 
-    // , startCable: function () {
-    //     game.state.start('cableStage');
-    // }
-    
+    toggleSound : function () {
+        // game.music.pause() || game.music.resume();
+        // this.soundBtnPressed = game.add.sprite('soundPressed', 200, 200);
+        if (game.music.volume === 1)
+            game.music.volume = 0;
+        else
+            game.music.volume = 1;
+    }
 }

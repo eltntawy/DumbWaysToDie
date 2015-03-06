@@ -14,8 +14,7 @@ var electricitySuccess = {
         // background, score and sound
         /**************************************************************************************/
 
-        game.load.atlas('success', 'assets/home/home.png', 'assets/home/home.json');
-        game.load.atlas('fail', 'assets/Electricity/Electrical_fail.gif');
+        game.load.atlas('success', 'assets/Electricity/work.png', 'assets/Electricity/work.json');
 
         /**************************************************************************************/
         // set the time after which the game ends
@@ -28,7 +27,8 @@ var electricitySuccess = {
         // background, score and sound
         /**************************************************************************************/
         var background = game.add.sprite(0, 0, 'success');
-        background.animations.add('animate', [0, 1], 5, true);
+        background.scale.setTo(.80,.80);
+        background.animations.add('animate', [0, 1,2,3], 10, true);
         background.animations.play('animate');
         /**************************************************************************************/
     },
