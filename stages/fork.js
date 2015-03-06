@@ -1,8 +1,9 @@
-
 var forkStage = {
     preload: function() {
         game.load.image('fork', 'assets/forkStage/fork.png');
         game.load.image('toaster', 'assets/forkStage/toaster.png');
+
+        game.load.atlasJSONHash('animLosing', 'assets/forkStage/anim.png', 'assets/forkStage/anim.json');
     },
 
     create: function() {
@@ -36,10 +37,16 @@ var forkStage = {
         this.preloadBar.scale.y = 3;
 
         // set the time after which the game ends
-        game.time.events.add(Phaser.Timer.SECOND * this.duration, this.endStage, this);
+        game.time.events.add(Phaser.Timer.SECOND * this.duration, this.losingAnimation, this);
 
         // moves duration bar
         game.time.events.repeat(Phaser.Timer.SECOND / 20, this.duration * 20, this.decreaseTimer, this);
+
+        // added animation of losing here because it doesn't play if added elsewhere
+        this.anim = this.add.sprite(0, 0, 'animLosing');
+        this.anim.animations.add('animLosing');
+        // and hiding it from player
+        this.anim.alpha = 0;
     },
 
     update: function() {
@@ -47,21 +54,27 @@ var forkStage = {
         game.physics.arcade.collide(this.fork, this.right_toaster, this.collisionHandler);
 
         if (game.physics.arcade.overlap(this.fork, this.right_toaster)) {
-            endStage();
+            this.losingAnimation();
         }
 
         if (game.physics.arcade.overlap(this.fork, this.left_toaster)) {
-            endStage();
+            this.losingAnimation();
         }
 
         if (this.fork.body.position.y < -720) {
             console.log("win");
-            
         }
     },
 
     // time allocated for stage
     duration: 5,
+
+    losingAnimation: function() {
+        this.anim.alpha = 1;
+        
+        this.anim.animations.play('animLosing');
+        game.time.events.add(Phaser.Timer.SECOND * 1.7, this.endStage, this);
+    },
 
     endStage: function() {
         game.state.start('scoreStage');
