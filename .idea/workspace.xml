@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c9ac7b9-5ce5-4bc5-9a99-e317f8a6f7a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dwtd_logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DumbWaysToDie.iws" />
@@ -373,7 +372,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425664618643</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/fork.js&#10;&#9;stages/main.js&#10;&#9;stages/menu.js&#10;">
+      <created>1425665653795</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1425665653796</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
