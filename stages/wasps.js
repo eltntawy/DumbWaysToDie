@@ -1,0 +1,82 @@
+var waspsStage = {
+	preload : function() {
+		game.load.image('sad', 'assets/wasps/sad.png');
+		game.load.image('wasp', 'assets/wasps/Wasp.png');
+	},
+
+	create : function() {
+		//  A simple background for our game
+		game.add.sprite(0, 0, 'sad');
+		//game.add.sprite(0, 0, 'sky');
+		this.players = game.add.group();
+		this.players.enableBody = true;
+		this.random_number_butterflies = 1 + Math.random() * 10;
+		this.beeskilled = this.random_number_butterflies;
+		for (var i = 0; i < this.random_number_butterflies; i++) {
+			/*var player = game.add.sprite(game.world.randomX, game.world.randomY, 'dude');
+
+			 player.animations.add('left', [0, 1, 2, 3], 10, true);
+			 player.animations.add('right', [5, 6, 7, 8], 10, true);
+			 */
+			this.player = game.add.sprite(game.world.randomX, game.world.randomY, 'wasp');
+			this.players.add(this.player);
+			this.player.body.collideWorldBounds = true;
+			this.player.body.bounce.set(1);
+			this.player.body.velocity.setTo(10 + Math.random() * 70, 10 + Math.random() * 70);
+		}
+		this.players.inputEnabled = true;
+		game.physics.enable(this.players, Phaser.Physics.ARCADE);
+		game.input.onDown.add(this.mouseclicked, this);
+		// duration bar
+		this.preloadBar = game.add.graphics(0, 3);
+		this.preloadBar.lineStyle(3, 0xaa3300, 1);
+		this.preloadBar.moveTo(0, 0);
+		this.preloadBar.lineTo(game.width, 0);
+		this.preloadBar.scale.x = 1;
+		this.preloadBar.scale.y = 3;
+
+		// set the time after which the game ends
+		game.time.events.add(Phaser.Timer.SECOND * this.duration, this.loosing, this);
+
+		// moves duration bar
+		game.time.events.repeat(Phaser.Timer.SECOND / 20, this.duration * 20, this.decreaseTimer, this);
+
+	},
+
+	update : function() {
+		if (this.beeskilled <= 0) {
+			this.winning();
+		}
+	},
+	//winning
+	winning : function() {
+		this.endStage();
+	},
+	//loosing
+	loosing : function() {
+		this.endStage();
+	},
+	killbee : function(item) {
+		item.kill();
+		this.beeskilled--;
+	},
+	//killing bees
+	mouseclicked : function() {
+
+		this.players.forEach(function(item) {
+			if ((game.input.x >= item.position.x && game.input.x <= (item.position.x + item.width)) && (game.input.y >= item.position.y && game.input.y <= (item.position.y + item.height))) {
+				this.killbee(item);
+			}
+		}, this);
+	},
+	// time allocated for stage
+	duration : 5,
+
+	endStage : function() {
+		game.state.start('scoreStage');
+	},
+
+	decreaseTimer : function() {
+		this.preloadBar.scale.x -= 1 / this.duration / 20;
+	}
+}
