@@ -4,7 +4,92 @@
     <bookmark url="file://$PROJECT_DIR$" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c9ac7b9-5ce5-4bc5-9a99-e317f8a6f7a4" name="Default" comment="">
+    <list default="true" id="8c9ac7b9-5ce5-4bc5-9a99-e317f8a6f7a4" name="Default" comment="adding style to home game page">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie/images/banner-overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_000.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_001.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_002.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_003.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_004.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_005.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_006.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_007.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_008.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_009.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_010.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_011.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_012.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_013.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_014.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_015.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_016.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_017.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_018.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_019.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_020.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_021.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_022.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_023.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_024.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_025.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_026.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_027.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_028.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_029.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_030.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_031.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_032.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/fire/frame_033.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pic01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pic02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pic03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pic04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pic05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pic06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pic07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pic08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/work.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie/PIE.htc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_vars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.dropotron.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.scrollex.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.scrolly.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/no-sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/skel-layers.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/skel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/skel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style-large.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/style-large.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style-medium.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/style-medium.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style-small.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/style-small.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style-xlarge.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/style-xlarge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style-xsmall.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/style-xsmall.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie/v8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/ie/v8.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie/v9.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/ie/v9.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Electricity/work.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DumbWaysToDie.iws" />
@@ -51,11 +136,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wasps.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wasps.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stages/wasps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3125" vertical-offset="0" max-vertical-offset="1455">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1455">
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8033708" vertical-offset="839" max-vertical-offset="1260">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,10 +213,10 @@
         <option value="$PROJECT_DIR$/stages/electricity/electricityStage.js" />
         <option value="$PROJECT_DIR$/stages/electricity/electricity_fail.js" />
         <option value="$PROJECT_DIR$/stages/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stages/menu.js" />
         <option value="$PROJECT_DIR$/stages/score.js" />
         <option value="$PROJECT_DIR$/stages/gameoverStage.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -177,20 +272,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,7 +459,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425665653796</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/fork.js&#10;&#9;stages/main.js&#10;&#9;stages/menu.js&#10;">
+      <created>1425665665154</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1425665665154</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -390,10 +477,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22112212" sideWeight="0.50037175" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32838285" sideWeight="0.49962825" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32838285" sideWeight="0.50037175" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22112212" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22112212" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17397769" sideWeight="0.49671054" order="0" side_tool="false" content_ui="combo" />
@@ -442,7 +529,8 @@
     <MESSAGE value="finish electricity stage&#10;" />
     <MESSAGE value="finish gameover stage&#10;" />
     <MESSAGE value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/fork.js&#10;&#9;stages/main.js&#10;&#9;stages/menu.js&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/fork.js&#10;&#9;stages/main.js&#10;&#9;stages/menu.js&#10;" />
+    <MESSAGE value="adding style to home game page" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding style to home game page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,14 +550,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="775">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stages/electricity/electricityStage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2750">
@@ -770,14 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5297297" vertical-offset="6" max-vertical-offset="600">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stages/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
@@ -822,8 +894,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stages/wasps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3125" vertical-offset="0" max-vertical-offset="1455">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1455">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/ie/v8.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3285">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8033708" vertical-offset="839" max-vertical-offset="1260">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
