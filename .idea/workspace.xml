@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c9ac7b9-5ce5-4bc5-9a99-e317f8a6f7a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/menu.js" afterPath="$PROJECT_DIR$/stages/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Electricity/fire.png" afterPath="$PROJECT_DIR$/assets/Electricity/fire.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/electricity/electricityStage.js" afterPath="$PROJECT_DIR$/stages/electricity/electricityStage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/electricity/electricity_fail.js" afterPath="$PROJECT_DIR$/stages/electricity/electricity_fail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Electricity/fire.json" afterPath="$PROJECT_DIR$/assets/Electricity/fire.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DumbWaysToDie.iws" />
@@ -31,28 +34,7 @@
     <favorites_list name="DumbWaysToDie" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="electricity_success.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_success.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9101124" vertical-offset="0" max-vertical-offset="735">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="electricity_fail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_fail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="795">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -70,17 +52,17 @@
         <option value="$PROJECT_DIR$/stages/dontPressTheButton.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stages/scoreStage.js" />
-        <option value="$PROJECT_DIR$/stages/menu.js" />
         <option value="$PROJECT_DIR$/stages/gameoverStage.js" />
         <option value="$PROJECT_DIR$/stages/running.js" />
         <option value="$PROJECT_DIR$/stages/main.js" />
-        <option value="$PROJECT_DIR$/stages/electricity/electricityStage.js" />
         <option value="$PROJECT_DIR$/stages/poke.js" />
         <option value="$PROJECT_DIR$/stages/fork.js" />
         <option value="$PROJECT_DIR$/stages/preload.js" />
         <option value="$PROJECT_DIR$/stages/score.js" />
-        <option value="$PROJECT_DIR$/stages/electricity/electricity_fail.js" />
         <option value="$PROJECT_DIR$/stages/electricity/electricity_success.js" />
+        <option value="$PROJECT_DIR$/stages/electricity/electricityStage.js" />
+        <option value="$PROJECT_DIR$/stages/menu.js" />
+        <option value="$PROJECT_DIR$/stages/electricity/electricity_fail.js" />
       </list>
     </option>
   </component>
@@ -136,20 +118,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,7 +275,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425655693321</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/menu.js&#10;">
+      <created>1425655816514</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1425655816514</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -322,14 +296,14 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22112212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22112212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17397769" sideWeight="0.49671054" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17397769" sideWeight="0.49671054" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20692368" sideWeight="0.50165015" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20520446" sideWeight="0.50328946" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -367,11 +341,19 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;index.html&#10;&#9;stages/main.js&#10;&#9;stages/menu.js&#10;" />
     <MESSAGE value="score stage" />
     <MESSAGE value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.&#10;" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/menu.js&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/menu.js&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/stages/electricity/electricityStage.js</url>
+          <line>139</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -657,14 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stages/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1590909" vertical-offset="246" max-vertical-offset="825">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stages/running.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77272725" vertical-offset="717" max-vertical-offset="1245">
@@ -689,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stages/electricity/electricityStage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37823835" vertical-offset="636" max-vertical-offset="3300">
-          <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/phaser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33215547" vertical-offset="867862" max-vertical-offset="1343940">
@@ -713,14 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stages/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stages/score.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9067358" vertical-offset="405" max-vertical-offset="1380">
@@ -729,18 +687,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_fail.js">
+    <entry file="file://$PROJECT_DIR$/stages/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="795">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/electricity/electricityStage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61139894" vertical-offset="2781" max-vertical-offset="3360">
+          <caret line="209" column="10" selection-start-line="209" selection-start-column="10" selection-end-line="209" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_success.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9101124" vertical-offset="0" max-vertical-offset="735">
+        <state vertical-scroll-proportion="0.69948184" vertical-offset="0" max-vertical-offset="735">
           <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_fail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4770318" vertical-offset="0" max-vertical-offset="780">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30051813" vertical-offset="621" max-vertical-offset="1200">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding />
         </state>
       </provider>

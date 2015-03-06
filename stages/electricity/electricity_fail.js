@@ -8,9 +8,6 @@
  * Created by eltntawy on 24/02/15.
  */
 
-var timeout = 0;
-var timeToWait = 200;
-
 var electricityFail = {
     preload: function () {
 
@@ -28,10 +25,12 @@ var electricityFail = {
 
 
         /**************************************************************************************/
-        // background, score and sound
+        // background, score and sounds
         /**************************************************************************************/
         var background = game.add.sprite(0, 0, 'fail');
-        background.animations.add('fire',[0 ,1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10 ,11 ,12 ,13 ,14 ,15 ,16 ,17 ,18 ,19 ,20 ,21 ,22 ,23 ,24 ,25 ,26 ,27 ,28 ,29 ,30 ,31 ,32 ,33],10,true);
+        background.scale.setTo(1.4,1.4);
+        background.animations.add('fire',[0 ,1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9
+            ,10 ,11 ,12 ,13 ,14 ,15 ,16 ,17 ,18 ,19 ,20 ,21 ,22 ,23 ,24 ,25 ,26 ,27 ,28 ,29 ,30 ,31 ,32 ,33],8,true);
         //background.animations.play();
         background.play('fire');
         /**************************************************************************************/

@@ -137,6 +137,10 @@ var electricityStage = {
         
         /**************************************************************************************/
 
+        for(var i = 0 ; i < success.length ; i++)
+            success[i] = false;
+
+
 
         // logger
         console.log('gameStage : creation finished');
