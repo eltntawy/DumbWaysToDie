@@ -4,6 +4,7 @@ var waspsStage = {
 		game.load.image('wasp', 'assets/wasps/Wasp.png');
 
 		game.load.atlasJSONHash('win_anim', 'assets/wasps/win_anim.png', 'assets/wasps/win_anim.json');
+		game.load.atlasJSONHash('lose_anim', 'assets/wasps/lose_anim.png', 'assets/wasps/lose_anim.json');
 	},
 
 	create : function() {
@@ -48,6 +49,12 @@ var waspsStage = {
         this.win_anim.animations.add('win_anim');
         // and hiding it from player
         this.win_anim.alpha = 0;
+
+        // added animation of losing here because it doesn't play if added elsewhere
+        this.lose_anim = this.add.sprite(0, 0, 'lose_anim');
+        this.lose_anim.animations.add('lose_anim');
+        // and hiding it from player
+        this.lose_anim.alpha = 0;
 	},
 
 	update : function() {
@@ -64,7 +71,10 @@ var waspsStage = {
 	},
 	//loosing
 	loosing : function() {
-		this.endStage();
+		this.lose_anim.alpha = 1;
+        
+        this.lose_anim.animations.play('lose_anim');
+        game.time.events.add(Phaser.Timer.SECOND * 2.5, this.endStage, this);
 	},
 	killbee : function(item) {
 		item.kill();
