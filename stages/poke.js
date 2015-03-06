@@ -42,10 +42,10 @@ var pokeTheBearStage = {
         this.preloadBar.scale.y = 3;
 
         // set the time after which the game ends
-        game.time.events.add(Phaser.Timer.SECOND * this.duration, this.endStage, this);
+        game.time.events.add(Phaser.Timer.SECOND * globals.duration, this.endStage, this);
 
         // moves duration bar
-        game.time.events.repeat(Phaser.Timer.SECOND / 20, this.duration * 20, this.decreaseTimer, this);
+        game.time.events.repeat(Phaser.Timer.SECOND / 20, globals.duration * 20, this.decreaseTimer, this);
 
         console.log(this.initialStartX - (this.pokeSafe.width / 2 - 32));
         console.log(this.initialStartX + (this.pokeSafe.width / 2 - 32));
@@ -73,10 +73,10 @@ var pokeTheBearStage = {
     duration: 5,
 
     endStage: function() {
-        //game.state.start('scoreStage');
+        game.state.start('scoreStage');
     },
 
     decreaseTimer: function () {
-        this.preloadBar.scale.x -= 1/this.duration/20;
+        this.preloadBar.scale.x -= 1/globals.duration/20;
     }
 }

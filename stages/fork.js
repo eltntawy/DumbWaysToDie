@@ -36,10 +36,10 @@ var forkStage = {
         this.preloadBar.scale.y = 3;
 
         // set the time after which the game ends
-        game.time.events.add(Phaser.Timer.SECOND * this.duration, this.endStage, this);
+        game.time.events.add(Phaser.Timer.SECOND * globals.duration, this.endStage, this);
 
         // moves duration bar
-        game.time.events.repeat(Phaser.Timer.SECOND / 20, this.duration * 20, this.decreaseTimer, this);
+        game.time.events.repeat(Phaser.Timer.SECOND / 20, globals.duration * 20, this.decreaseTimer, this);
     },
 
     update: function() {
@@ -47,11 +47,11 @@ var forkStage = {
         game.physics.arcade.collide(this.fork, this.right_toaster, this.collisionHandler);
 
         if (game.physics.arcade.overlap(this.fork, this.right_toaster)) {
-            endStage();
+            this.endStage();
         }
 
         if (game.physics.arcade.overlap(this.fork, this.left_toaster)) {
-            endStage();
+            this.endStage();
         }
 
         if (this.fork.body.position.y < -720) {
@@ -68,6 +68,6 @@ var forkStage = {
     },
 
     decreaseTimer: function () {
-        this.preloadBar.scale.x -= 1/this.duration/20;
+        this.preloadBar.scale.x -= 1/globals.duration/20;
     }
 }
