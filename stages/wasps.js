@@ -2,6 +2,8 @@ var waspsStage = {
 	preload : function() {
 		game.load.image('sad', 'assets/wasps/sad.png');
 		game.load.image('wasp', 'assets/wasps/Wasp.png');
+
+		game.load.atlasJSONHash('win_anim', 'assets/wasps/win_anim.png', 'assets/wasps/win_anim.json');
 	},
 
 	create : function() {
@@ -41,6 +43,11 @@ var waspsStage = {
 		// moves duration bar
 		game.time.events.repeat(Phaser.Timer.SECOND / 20, this.duration * 20, this.decreaseTimer, this);
 
+		// added animation of losing here because it doesn't play if added elsewhere
+        this.win_anim = this.add.sprite(0, 0, 'win_anim');
+        this.win_anim.animations.add('win_anim');
+        // and hiding it from player
+        this.win_anim.alpha = 0;
 	},
 
 	update : function() {
@@ -50,7 +57,10 @@ var waspsStage = {
 	},
 	//winning
 	winning : function() {
-		this.endStage();
+		this.win_anim.alpha = 1;
+        
+        this.win_anim.animations.play('win_anim');
+        game.time.events.add(Phaser.Timer.SECOND * 1.7, this.endStage, this);
 	},
 	//loosing
 	loosing : function() {
