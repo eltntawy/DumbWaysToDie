@@ -30,8 +30,11 @@ var menuStage = {
         // for just developing add button hear and set an action for that button to start your stage
         // ex :
         /**************************************************************************************/
-        var btn = game.add.button(game.world.centerX,game.world.centerY,'btn1',this.clickAction);
-        btn.anchor.setTo(0.5,0.5);
+        this.background = game.add.tileSprite(0, 0, 800, 600, 'station');
+        // background.anchor.setTo(0.5,0.5);
+
+        this.btn = game.add.button(game.world.centerX, game.world.height - 100, 'playButtonUnpressed',this.startGame);
+        this.btn.anchor.setTo(0.5,0.5);
 
         this.soundBtn = game.add.button(game.world.width - 100, game.world.height - 100, 'soundUnpressed',this.toggleSound);
         this.soundBtn.anchor.setTo(0.5,0.5);
@@ -44,7 +47,7 @@ var menuStage = {
 
         
     },
-    clickAction : function () {
+    startGame : function () {
         /**************************************************************************************/
         // start the game stage
         /**************************************************************************************/
@@ -54,7 +57,7 @@ var menuStage = {
         // these are for debugging single stages
         // game.state.start('runningStage');
         // game.state.start('forkStage');
-        game.state.start('scoreStage');
+        //game.state.start('scoreStage');
         
         /**************************************************************************************/
         // logger
