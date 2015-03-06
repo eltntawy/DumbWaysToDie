@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c9ac7b9-5ce5-4bc5-9a99-e317f8a6f7a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/gameoverStage.js" afterPath="$PROJECT_DIR$/stages/gameoverStage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/main.js" afterPath="$PROJECT_DIR$/stages/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/menu.js" afterPath="$PROJECT_DIR$/stages/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/score.js" afterPath="$PROJECT_DIR$/stages/score.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dwtd_logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DumbWaysToDie.iws" />
@@ -36,11 +32,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gameoverStage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gameoverStage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stages/gameoverStage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59585494" vertical-offset="225" max-vertical-offset="870">
-              <caret line="38" column="119" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="870">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dontPressTheButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stages/dontPressTheButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="840">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wasps.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stages/wasps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3125" vertical-offset="0" max-vertical-offset="1455">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -59,9 +75,11 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stages/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+              <folding>
+                <marker date="1425664485412" expanded="true" signature="1249:1521" placeholder="{&quot;score&quot;: 0...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,7 +191,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stages" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,7 +361,19 @@
       <option name="project" value="LOCAL" />
       <updated>1425659945291</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finish gameover stage&#10;">
+      <created>1425664026441</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1425664026441</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/fork.js&#10;&#9;stages/main.js&#10;&#9;stages/menu.js&#10;">
+      <created>1425664618643</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1425664618643</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -356,12 +386,12 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22112212" sideWeight="0.50037175" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22112212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22112212" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17397769" sideWeight="0.49671054" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17397769" sideWeight="0.49671054" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20692368" sideWeight="0.50165015" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20520446" sideWeight="0.50328946" order="3" side_tool="true" content_ui="tabs" />
@@ -405,7 +435,9 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.&#10;" />
     <MESSAGE value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/menu.js&#10;" />
     <MESSAGE value="finish electricity stage&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish electricity stage&#10;" />
+    <MESSAGE value="finish gameover stage&#10;" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/fork.js&#10;&#9;stages/main.js&#10;&#9;stages/menu.js&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/fork.js&#10;&#9;stages/main.js&#10;&#9;stages/menu.js&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -425,13 +457,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Space Bombs Game /states/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2536" max-vertical-offset="9650">
-          <caret line="374" column="102" selection-start-line="374" selection-start-column="78" selection-end-line="374" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="775">
@@ -676,14 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stages/dontPressTheButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11363637" vertical-offset="0" max-vertical-offset="840">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stages/running.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77272725" vertical-offset="717" max-vertical-offset="1245">
@@ -758,9 +775,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stages/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <marker date="1425664485412" expanded="true" signature="1249:1521" placeholder="{&quot;score&quot;: 0...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -782,8 +801,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stages/gameoverStage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59585494" vertical-offset="225" max-vertical-offset="870">
-          <caret line="38" column="119" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="870">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/dontPressTheButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="840">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/wasps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3125" vertical-offset="0" max-vertical-offset="1455">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
