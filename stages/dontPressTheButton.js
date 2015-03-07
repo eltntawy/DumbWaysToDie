@@ -25,7 +25,7 @@ var dontPressTheButtonStage = {
         game.backgroundColor = 0xf545ff;
         var background = game.add.image(0,0,'dontpressthebuttonBackground');
         background.scale.setTo(1.3, 1.8);
-        scoreText = game.add.text(10, 10, 'Game Score : ' + globals.score, {fontsize: 60, fill: 'white'});
+        //scoreText = game.add.text(10, 10, 'Game Score : ' + globals.score, {fontsize: 60, fill: 'white'});
         /**************************************************************************************/
 
 
