@@ -58,7 +58,9 @@ var menuStage = {
         // game.state.start('runningStage');
         // game.state.start('forkStage');
         //game.state.start('scoreStage');
-        game.state.start('waspsStage');
+        //game.state.start('waspsStage');
+        var nextLevel = globals.stages[game.rnd.integerInRange(0, globals.stages.length - 1)];
+        game.state.start(nextLevel);
         /**************************************************************************************/
         // logger
         console.log('menuStage : gameStage is started');

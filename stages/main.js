@@ -30,7 +30,7 @@ game.state.add('boot', boot); // boot  stage
 var globals = {
 	// add your stage to this stages array to make the game choose randomly from it
     stages: ['electricityStage', 'forkStage', 'runningStage', 'pokeTheBearStage','spaceStage','waspsStage','dontPressTheButtonStage'],
-
+    //stages: ['dontPressTheButtonStage'],
     score: 0,
     lives: 3 ,
     duration : 5,

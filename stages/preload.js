@@ -16,8 +16,10 @@ var preloadStage = {
         /**************************************************************************************/
         game.load.image('btn1','assets/btn/btn.png');
         /**************************************************************************************/
-        game.load.spritesheet('button_up','assets/dontpressthebutton/press_me.png',401, 143);
-        //game.load.image('button_down', 'assets/press_me.png');
+        game.load.spritesheet('button_up','assets/dontpressthebutton/press_me.png',201, 71);
+
+
+        game.load.image('dontpressthebuttonBackground', 'assets/dontpressthebutton/Dont_press_the_red_button_app.png');
         game.load.atlas('dontpressthebuttonfail', 'assets/dontpressthebutton/fail.png', 'assets/dontpressthebutton/fail.json');
 
 

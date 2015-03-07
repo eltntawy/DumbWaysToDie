@@ -23,6 +23,8 @@ var dontPressTheButtonStage = {
         // background,   and sound
         /**************************************************************************************/
         game.backgroundColor = 0xf545ff;
+        var background = game.add.image(0,0,'dontpressthebuttonBackground');
+        background.scale.setTo(1.3, 1.8);
         scoreText = game.add.text(10, 10, 'Game Score : ' + globals.score, {fontsize: 60, fill: 'white'});
         /**************************************************************************************/
 
@@ -30,7 +32,10 @@ var dontPressTheButtonStage = {
         //buttondown = game.add.button(0, 0, 'button_down', this.pressButton);
         //buttondown.scale.setTo(1.3, 1.8);
 
-        buttonup = game.add.button(0, 0, 'button_up', this.pressButton,this, 1,0,2);
+        buttonup = game.add.button(100, game.world.height/2, 'button_up', this.pressButton,this, 1,0,2);
+        buttonup.anchor.setTo(0.5,0.5);
+
+
         //buttonup.scale.setTo(1.3, 1.8);
 
 
