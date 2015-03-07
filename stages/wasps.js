@@ -49,19 +49,21 @@ var waspsStage = {
         // and hiding it from player
         this.win_anim.alpha = 0;
 	},
-
+	endstage:false,
 	update : function() {
-		if (this.beeskilled <= 0) {
+		if (this.beeskilled <= 0 && !this.endstage) {
 			this.winning();
+			this.endstage=true;
 		}
 	},
 	//winning
 	winning : function() {
+		globals.score += 100;
+        globals.difficulty++;
 		this.win_anim.alpha = 1;
         
         this.win_anim.animations.play('win_anim');
-        globals.score += 100;
-        globals.difficulty++;
+        
         
         game.time.events.add(Phaser.Timer.SECOND * 1.7, this.endStage, this);
         
