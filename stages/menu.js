@@ -59,7 +59,7 @@ var menuStage = {
         // game.state.start('forkStage');
         //game.state.start('scoreStage');
         //game.state.start('spaceStage');
-        game.state.start('waspsStage');
+        // game.state.start('waspsStage');
 
         /**************************************************************************************/
         // logger
