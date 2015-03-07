@@ -61,9 +61,15 @@ var waspsStage = {
         
         this.win_anim.animations.play('win_anim');
         game.time.events.add(Phaser.Timer.SECOND * 1.7, this.endStage, this);
+        globals.score += 100;
+        globals.difficulty++;
+        
+        
 	},
 	//loosing
 	loosing : function() {
+		globals.score -= 50;
+        globals.lives --;
 		this.endStage();
 	},
 	killbee : function(item) {

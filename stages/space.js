@@ -55,11 +55,15 @@ var spaceStage = {
 	},
 	//loosing
 	loosing : function() {
+		globals.score -= 50;
+        globals.lives --;
 		this.endStage();
 	},
 	//winnig
 	catch_helmet : function() {
-		this.endStage();
+		globals.score += 100;
+        globals.difficulty++;
+        this.endStage();
 	},
 	// time allocated for stage
 	duration : 5,
