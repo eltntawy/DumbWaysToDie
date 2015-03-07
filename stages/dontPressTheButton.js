@@ -78,6 +78,9 @@ var dontPressTheButtonStage = {
     pressButton: function () {
         buttonup.kill();
 
+        globals.score -= 50;
+        globals.lives --;
+
         var fail = game.add.sprite(0, 0, 'dontpressthebuttonfail');
         fail.scale.setTo(1.8, 1.8);
         var failAnimation = fail.animations.add('animate', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
@@ -85,8 +88,7 @@ var dontPressTheButtonStage = {
 
         failAnimation.killOnComplete = true;
         failAnimation.onComplete.add(function () {
-            globals.score -= 50;
-            globals.lives--;
+
             game.state.start('scoreStage');
         });
 
