@@ -84,7 +84,7 @@ var scoreStage = {
             var nextLevel = globals.stages[game.rnd.integerInRange(0, globals.stages.length - 1)];
             game.state.start(nextLevel);
         } else {
-            game.state.start('gameoverState');
+            game.state.start('gameoverStage');
         }
     },
     decreaseTimer: function () {

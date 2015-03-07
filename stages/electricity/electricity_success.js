@@ -17,8 +17,6 @@ var electricitySuccess = {
         game.load.atlas('success', 'assets/Electricity/work.png', 'assets/Electricity/work.json');
 
         /**************************************************************************************/
-        // set the time after which the game ends
-        game.time.events.add(Phaser.Timer.SECOND * globals.duration, this.endStage, this);
     },
 
     create: function () {
@@ -28,19 +26,20 @@ var electricitySuccess = {
         /**************************************************************************************/
         var background = game.add.sprite(0, 0, 'success');
         background.scale.setTo(.80,.80);
-        background.animations.add('animate', [0, 1,2,3], 10, true);
+        var successAnimation = background.animations.add('animate', [0, 1,2,3], 10);
         background.animations.play('animate');
+
+        successAnimation.killOnComplete = true;
+        successAnimation.onComplete.add(function () {
+            globals.score += 100;
+            globals.difficulty++;
+            game.state.start('scoreStage');
+        });
         /**************************************************************************************/
     },
 
     update: function () {
 
 
-    },
-    duration: 5,
-    endStage: function () {
-        globals.score += 100;
-        globals.difficulty++;
-        game.state.start('scoreStage');
     }
 }

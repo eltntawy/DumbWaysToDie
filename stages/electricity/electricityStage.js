@@ -149,7 +149,7 @@ var electricityStage = {
     update: function () {
 
         line1.setTo(cable1handle1.x,cable1handle1.y, cable1handle2.x,cable1handle2.y);
-        line2.setTo(cable2handle1.x,cable2handle2.y, cable2handle2.x,cable2handle2.y);
+        line2.setTo(cable2handle1.x,cable2handle1.y, cable2handle2.x,cable2handle2.y);
 
 
         game.physics.arcade.collide(cable1handle2,cable1Down);
@@ -215,5 +215,10 @@ var electricityStage = {
     },
     decreaseTimer: function () {
         this.preloadBar.scale.x -= 1 / globals.duration / 20;
+    },
+    render: function () {
+
+        game.debug.geom(line1);
+        game.debug.geom(line2);
     }
 }
