@@ -4,22 +4,91 @@
     <bookmark url="file://$PROJECT_DIR$" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c9ac7b9-5ce5-4bc5-9a99-e317f8a6f7a4" name="Default" comment="adding style to home game page">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/no-sidebar.html" afterPath="" />
+    <list default="true" id="8c9ac7b9-5ce5-4bc5-9a99-e317f8a6f7a4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/boot/boot.GIF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/button-start-spritesheet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/download-button-version.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/fail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_000.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_001.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_002.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_003.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_004.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_005.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_006.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_007.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_008.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_009.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_010.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_011.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_012.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_013.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_014.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_015.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_016.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_017.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_018.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_019.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_020.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_021.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_022.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_023.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_024.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_025.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_026.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_027.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_028.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_029.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_030.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_031.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_032.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_033.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_034.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_035.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_036.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_037.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_038.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_039.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_040.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_041.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_042.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_043.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_044.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_045.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_046.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_047.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_048.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_049.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_050.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_051.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_052.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_053.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_054.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_055.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_056.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_057.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_058.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_059.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_060.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_061.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_062.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_063.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/46dc896666-gif/frame_064.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/boot/preloader1 (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/boot/preloader1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/boot/preloaderBar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/press_me.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/tumblr_md39aneM0o1rk9vano1_r1_500.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dontpressthebutton/fail.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_mixins.scss" afterPath="$PROJECT_DIR$/sass/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_vars.scss" afterPath="$PROJECT_DIR$/sass/_vars.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/images/arrow.svg" afterPath="$PROJECT_DIR$/css/images/arrow.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/dontPressTheButton.js" afterPath="$PROJECT_DIR$/stages/dontPressTheButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/electricity/electricityStage.js" afterPath="$PROJECT_DIR$/stages/electricity/electricityStage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/electricity/electricity_fail.js" afterPath="$PROJECT_DIR$/stages/electricity/electricity_fail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/electricity/electricity_success.js" afterPath="$PROJECT_DIR$/stages/electricity/electricity_success.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/init.js" afterPath="$PROJECT_DIR$/js/init.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.dropotron.min.js" afterPath="$PROJECT_DIR$/js/jquery.dropotron.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.scrollex.min.js" afterPath="$PROJECT_DIR$/js/jquery.scrollex.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.scrolly.min.js" afterPath="$PROJECT_DIR$/js/jquery.scrolly.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/main.js" afterPath="$PROJECT_DIR$/stages/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stages/score.js" afterPath="$PROJECT_DIR$/stages/score.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/skel-layers.min.js" afterPath="$PROJECT_DIR$/js/skel-layers.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style-large.scss" afterPath="$PROJECT_DIR$/sass/style-large.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style-medium.scss" afterPath="$PROJECT_DIR$/sass/style-medium.scss" />
@@ -54,58 +123,7 @@
     <favorites_list name="DumbWaysToDie" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stages/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8450947" vertical-offset="79" max-vertical-offset="660">
-              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="electricity_success.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_success.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="720">
-              <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dontPressTheButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stages/dontPressTheButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="electricityStage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stages/electricity/electricityStage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.745098" vertical-offset="2905" max-vertical-offset="3435">
-              <caret line="220" column="8" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="electricity_fail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_fail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="765">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -124,18 +142,19 @@
         <option value="$PROJECT_DIR$/stages/running.js" />
         <option value="$PROJECT_DIR$/stages/poke.js" />
         <option value="$PROJECT_DIR$/stages/fork.js" />
-        <option value="$PROJECT_DIR$/stages/preload.js" />
         <option value="$PROJECT_DIR$/stages/menu.js" />
-        <option value="$PROJECT_DIR$/stages/gameoverStage.js" />
         <option value="$PROJECT_DIR$/stages/electricity/testCable.js" />
         <option value="$PROJECT_DIR$/stages/electricity/electricityTest.js" />
-        <option value="$PROJECT_DIR$/stages/score.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stages/dontPressTheButton.js" />
-        <option value="$PROJECT_DIR$/stages/electricity/electricity_fail.js" />
-        <option value="$PROJECT_DIR$/stages/electricity/electricity_success.js" />
         <option value="$PROJECT_DIR$/stages/electricity/electricityStage.js" />
+        <option value="$PROJECT_DIR$/stages/score.js" />
+        <option value="$PROJECT_DIR$/stages/gameoverStage.js" />
+        <option value="$PROJECT_DIR$/stages/electricity/electricity_success.js" />
+        <option value="$PROJECT_DIR$/stages/electricity/electricity_fail.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stages/main.js" />
+        <option value="$PROJECT_DIR$/stages/preload.js" />
+        <option value="$PROJECT_DIR$/stages/boot.js" />
       </list>
     </option>
   </component>
@@ -146,9 +165,10 @@
     <option name="LINE_NUMBERS" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="699" />
+    <option name="x" value="-1" />
+    <option name="y" value="-4" />
+    <option name="width" value="1368" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -190,52 +210,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="electricity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DumbWaysToDie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,27 +426,40 @@
       <option name="project" value="LOCAL" />
       <updated>1425668622637</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="dont push the button stage">
+      <created>1425717469893</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1425717469893</updated>
+    </task>
+    <task id="LOCAL-00016" summary="preloader stage&#10;preloader bar&#10;dontpressthebutton&#10;enhancement for index.html">
+      <created>1425737530889</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1425737530889</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="35305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="699" extended-state="6" />
+    <frame x="-1" y="-4" width="1368" height="728" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1724907" sideWeight="0.49671054" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.49962825" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.50037175" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22039473" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21947195" sideWeight="0.49962825" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20692368" sideWeight="0.50165015" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20520446" sideWeight="0.50328946" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39802632" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -484,7 +471,6 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.49962825" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -517,18 +503,20 @@
     <MESSAGE value="finish gameover stage&#10;" />
     <MESSAGE value="Merge branch 'master' of https://github.com/eltntawy/DumbWaysToDie&#10;&#10;Conflicts:&#10;&#9;stages/fork.js&#10;&#9;stages/main.js&#10;&#9;stages/menu.js&#10;" />
     <MESSAGE value="adding style to home game page" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding style to home game page" />
+    <MESSAGE value="dont push the button stage" />
+    <MESSAGE value="preloader stage&#10;preloader bar&#10;dontpressthebutton&#10;enhancement for index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="preloader stage&#10;preloader bar&#10;dontpressthebutton&#10;enhancement for index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/stages/electricity/electricityStage.js</url>
-          <line>139</line>
+          <line>125</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -537,13 +525,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Space Bombs Game /states/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2536" max-vertical-offset="9650">
-          <caret line="374" column="102" selection-start-line="374" selection-start-column="78" selection-end-line="374" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="775">
@@ -796,64 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stages/preload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stages/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1200">
           <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stages/electricity/electricityTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32874355" vertical-offset="229" max-vertical-offset="810">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stages/gameoverStage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49222797" vertical-offset="225" max-vertical-offset="870">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stages/score.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68911916" vertical-offset="891" max-vertical-offset="1470">
-          <caret line="86" column="43" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="1320">
-          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/phaser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48618785" vertical-offset="789411" max-vertical-offset="1343940">
-          <caret line="52645" column="36" selection-start-line="52645" selection-start-column="36" selection-end-line="52645" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stages/dontPressTheButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -866,34 +793,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_fail.js">
+    <entry file="file://$PROJECT_DIR$/js/phaser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="765">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.3480663" vertical-offset="519786" max-vertical-offset="1343940">
+          <caret line="34665" column="79" selection-start-line="34665" selection-start-column="71" selection-end-line="34665" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_success.js">
+    <entry file="file://$PROJECT_DIR$/stages/dontPressTheButton.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="720">
-          <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.4753521" vertical-offset="855" max-vertical-offset="1560">
+          <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/electricity/electricityTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72289157" vertical-offset="0" max-vertical-offset="810">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stages/electricity/electricityStage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.745098" vertical-offset="2905" max-vertical-offset="3435">
-          <caret line="220" column="8" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.30981067" vertical-offset="225" max-vertical-offset="3225">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/score.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24716981" vertical-offset="694" max-vertical-offset="1425">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/gameoverStage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22547331" vertical-offset="19" max-vertical-offset="780">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_success.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="705">
+          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="510" max-vertical-offset="1395">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stages/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8450947" vertical-offset="79" max-vertical-offset="660">
-          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="720">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/preload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.882353" vertical-offset="24" max-vertical-offset="1170">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22123894" vertical-offset="0" max-vertical-offset="339">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages/electricity/electricity_fail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1504425" vertical-offset="0" max-vertical-offset="750">
+          <caret line="28" column="110" selection-start-line="28" selection-start-column="110" selection-end-line="28" selection-end-column="110" />
           <folding />
         </state>
       </provider>
