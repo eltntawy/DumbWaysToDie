@@ -17,10 +17,7 @@ var cable1Down;
 var cable2Down;
 
 var success = [false,false];
-var fail = false;
-var countFail = 0;
 
-var timeToWait = 200;
 
 var electricityStage = {
     preload: function () {
@@ -28,22 +25,24 @@ var electricityStage = {
         /**************************************************************************************/
         // background, score and sound 
         /**************************************************************************************/
-        //game.load.atlas('homeBackground','assets/home/home.png','assets/home/home.json');
-        game.load.image('balls', 'assets/home/red-button-badge-circle-gloss.png', 50, 50);
 
-        game.load.image('background','assets/Electricity/background.png');
-
-        game.load.image('success','assets/Electricity/Home Lighting on-off.png');
-        game.load.image('fail','assets/Electricity/Electrical_work.gif');
-
-        game.load.image('cable1_up', 'assets/Electricity/1_up.png');
-        game.load.image('cable2_up', 'assets/Electricity/2_up.png');
-        game.load.image('cable3_up', 'assets/Electricity/3_up.png');
-
-        game.load.image('cable1_down', 'assets/Electricity/1_down.png');
-        game.load.image('cable2_down', 'assets/Electricity/2_down.png');
-        game.load.image('cable3_down', 'assets/Electricity/3_down.png');
         /**************************************************************************************/
+
+
+        // duration bar
+        this.preloadBar = game.add.graphics(0, 3);
+        this.preloadBar.lineStyle(3, 0xaa3300, 1);
+        this.preloadBar.moveTo(0, 0);
+        this.preloadBar.lineTo(game.width, 0);
+        this.preloadBar.scale.x = 1;
+        this.preloadBar.scale.y = 3;
+
+        // set the time after which the game ends
+        game.time.events.add(Phaser.Timer.SECOND * globals.duration, this.endStage, this);
+
+        // moves duration bar
+        game.time.events.repeat(Phaser.Timer.SECOND / 20, globals.duration * 20, this.decreaseTimer, this);
+
         // logger
         console.log('gameStage : preload finished');
     },
@@ -124,6 +123,10 @@ var electricityStage = {
         
         /**************************************************************************************/
 
+        for(var i = 0 ; i < success.length ; i++)
+            success[i] = false;
+
+
 
         // logger
         console.log('gameStage : creation finished');
@@ -132,7 +135,7 @@ var electricityStage = {
     update: function () {
 
         line1.setTo(cable1handle1.x,cable1handle1.y, cable1handle2.x,cable1handle2.y);
-        line2.setTo(cable2handle1.x,cable2handle2.y, cable2handle2.x,cable2handle2.y);
+        line2.setTo(cable2handle1.x,cable2handle1.y, cable2handle2.x,cable2handle2.y);
 
 
         game.physics.arcade.collide(cable1handle2,cable1Down);
@@ -141,7 +144,7 @@ var electricityStage = {
         game.physics.arcade.overlap(cable1handle2, cable1Down, this.overlab1, null, this);
         game.physics.arcade.overlap(cable2handle2, cable2Down, this.overlab2, null, this);
 
-        var count = 0 ;
+        var count = 0;
         for(var i = 0; i < success.length ; i ++) {
             if(success[i] == true) {
                 count++;
@@ -151,14 +154,6 @@ var electricityStage = {
         if(count == success.length) {
             game.state.start('electricity_success');
         }
-
-        if(fail == true || countFail == timeToWait) {
-            game.state.start('electricity_fail');
-        }
-
-
-        countFail++;
-        console.log('countFail : '+countFail);
         //console.log('overlab : '+cable1handle2.
         // x +  ','+cable1handle2.y);
     },
@@ -198,5 +193,18 @@ var electricityStage = {
             success [1] = true;
 
             console.log('overlab : '+cable1handle2.x +  ','+cable1handle2.y);
-        }
+        },
+    endStage: function () {
+
+        game.state.start('electricity_fail');
+
+    },
+    decreaseTimer: function () {
+        this.preloadBar.scale.x -= 1 / globals.duration / 20;
+    },
+    render: function () {
+
+        game.debug.geom(line1);
+        game.debug.geom(line2);
+    }
 }
