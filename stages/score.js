@@ -14,10 +14,7 @@ var scoreStage = {
         // moves duration bar
         // game.time.events.repeat(Phaser.Timer.SECOND / 20, globals.duration * 20, this.decreaseTimer, this);
 
-        game.load.image('background', 'assets/score/background.png')
-        game.load.atlas('player', 'assets/score/dance.png', 'assets/score/dance.json');
-        game.load.image('playerDie', 'assets/score/die.png');
-        game.load.image('logo','assets/dwtd_logo.png');
+
 
 	},
 
@@ -25,15 +22,15 @@ var scoreStage = {
 
 
 
-        game.add.sprite(0, 0, 'background');
+        game.add.sprite(0, 0, 'scoreBackground');
 
-        game.add.sprite(0, 0, 'background');
+        game.add.sprite(0, 0, 'scoreBackground');
         var logo = game.add.sprite(game.world.width/2, 100,'logo');
         logo.anchor.setTo(.5,.5);
 
 
         if(globals.lives >= 1) {
-            var player = game.add.sprite(game.world.width / 2 - 100, game.world.height - 200, 'player');
+            var player = game.add.sprite(game.world.width / 2 - 100, game.world.height - 200, 'playerDance');
             player.scale.setTo(0.5, 0.5);
             player.anchor.setTo(0.5, 0.5);
             player.animations.add('animate', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20], 15, true);
@@ -45,7 +42,7 @@ var scoreStage = {
         }
 
         if (globals.lives >= 2) {
-            var player = game.add.sprite(game.world.width / 2, game.world.height - 200, 'player');
+            var player = game.add.sprite(game.world.width / 2, game.world.height - 200, 'playerDance');
             player.scale.setTo(0.5, 0.5);
             player.anchor.setTo(0.5, 0.5);
             player.animations.add('animate', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20], 15, true);
@@ -58,7 +55,7 @@ var scoreStage = {
 
         if (globals.lives >= 3) {
 
-            var player = game.add.sprite(game.world.width / 2 + 100, game.world.height - 200, 'player');
+            var player = game.add.sprite(game.world.width / 2 + 100, game.world.height - 200, 'playerDance');
             player.scale.setTo(0.5, 0.5);
             player.anchor.setTo(0.5, 0.5);
             player.animations.add('animate', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20], 15, true);

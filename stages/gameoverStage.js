@@ -1,20 +1,14 @@
 var gameoverStage = {
     preload: function () {
 
-        game.load.image('background', 'assets/score/background.png')
-        game.load.atlas('player', 'assets/score/dance.png', 'assets/score/dance.json');
-        game.load.image('playerDie', 'assets/score/die.png');
-        game.load.image('logo','assets/dwtd_logo.png');
 
-        game.load.image('playButtonUnpressed', 'assets/menu/playButtonUnpressed.png');
-        game.load.image('playButtonPressed', 'assets/menu/playButtonPressed.png');
 
     },
 
     create: function() {
 
 
-        game.add.sprite(0, 0, 'background');
+        game.add.sprite(0, 0, 'scoreBackground');
         var logo = game.add.sprite(game.world.width/2, 100,'logo');
         logo.anchor.setTo(.5,.5);
 

@@ -24,6 +24,7 @@ game.state.add('waspsStage', waspsStage); //the space stage
 game.state.add('gameoverStage',gameoverStage); // gameover stage
 game.state.add('dontPressTheButtonStage',dontPressTheButtonStage); // gameover stage
 game.state.add('electricityTestStage',electricityTestStage); // test stage
+game.state.add('boot', boot); // boot  stage
 
 // globals
 var globals = {
@@ -36,6 +37,9 @@ var globals = {
     difficulty : 1
 }
 
-// this stage for loading resources from the system and display loading progress user
-game.state.start('preload');
-//game.state.start('electricityStage');
+$(document).ready(function () {
+    // this stage for loading resources from the system and display loading progress user
+    game.state.start('boot');
+    //game.state.start('dontPressTheButtonStage');
+    }
+);

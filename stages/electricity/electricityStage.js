@@ -25,21 +25,7 @@ var electricityStage = {
         /**************************************************************************************/
         // background, score and sound 
         /**************************************************************************************/
-        //game.load.atlas('homeBackground','assets/home/home.png','assets/home/home.json');
-        game.load.image('balls', 'assets/home/red-button-badge-circle-gloss.png', 50, 50);
 
-        game.load.image('background','assets/Electricity/background.png');
-
-        game.load.image('success','assets/Electricity/Home Lighting on-off.png');
-        game.load.image('fail','assets/Electricity/Electrical_work.gif');
-
-        game.load.image('cable1_up', 'assets/Electricity/1_up.png');
-        game.load.image('cable2_up', 'assets/Electricity/2_up.png');
-        game.load.image('cable3_up', 'assets/Electricity/3_up.png');
-
-        game.load.image('cable1_down', 'assets/Electricity/1_down.png');
-        game.load.image('cable2_down', 'assets/Electricity/2_down.png');
-        game.load.image('cable3_down', 'assets/Electricity/3_down.png');
         /**************************************************************************************/
 
 
