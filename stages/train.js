@@ -1,4 +1,4 @@
-var game = new Phaser.Game(799, 600, Phaser.AUTO, 'gameDiv');
+
 
 var trainStage = {
     number_of_secure: 0,
