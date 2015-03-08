@@ -25,21 +25,24 @@ game.state.add('gameoverStage',gameoverStage); // gameover stage
 game.state.add('dontPressTheButtonStage',dontPressTheButtonStage); // gameover stage
 game.state.add('electricityTestStage',electricityTestStage); // test stage
 game.state.add('boot', boot); // boot  stage
+game.state.add('killThatDear', killThatDearStage);
 
 // globals
 var globals = {
 	// add your stage to this stages array to make the game choose randomly from it
-    stages: ['electricityStage', 'forkStage', 'runningStage', 'pokeTheBearStage','spaceStage','waspsStage','dontPressTheButtonStage'],
+    stages: ['electricityStage', 'forkStage', 'runningStage', 'pokeTheBearStage','spaceStage','waspsStage','dontPressTheButtonStage', 'killThatDear'],
     //stages: ['dontPressTheButtonStage'],
     score: 0,
     lives: 3 ,
     duration : 5,
     difficulty : 1
-}
+};
 
-$(document).ready(function () {
+game.state.start('boot');
+
+/*$(document).ready(function () {
     // this stage for loading resources from the system and display loading progress user
     game.state.start('boot');
     //game.state.start('dontPressTheButtonStage');
     }
-);
+);*/

@@ -69,10 +69,6 @@ var pokeTheBearStage = {
         // moves duration bar
         game.time.events.repeat(Phaser.Timer.SECOND / 20, this.duration * 20, this.decreaseTimer, this);
 
-        console.log(this.initialStartX - (this.pokeSafe.width / 2 - 32));
-        console.log(this.initialStartX + (this.pokeSafe.width / 2 - 32));
-        console.log(this.pokeSafe.getBounds());
-        console.log(this.bearFace.getBounds());
     },
 
     update: function(){
@@ -129,7 +125,10 @@ var pokeTheBearStage = {
         }
         else{
             this.dummy.animations.play('dummyEaten');
-            this.endStage();
+            this.dummy.events.onAnimationComplete.add(function(){
+                this.endStage();
+            }, this);
+
         }
 
     },
@@ -138,9 +137,14 @@ var pokeTheBearStage = {
 
     endStage: function() {
         if (this.win == true)
+        {
+            globals.score += 100;
             game.state.start('scoreStage');
-        else
+        }
+        else{
+            globals.score -= 50;
             game.state.start('scoreStage');
+        }
     },
 
     decreaseTimer: function () {
