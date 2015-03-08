@@ -56,8 +56,8 @@ var spaceStage = {
 	//loosing
 	loosing : function() {
 		globals.score -= 50;
-		globals.lives--;
-		
+
+        globals.lives --;
 		this.endStage();
 	},
 	//winnig

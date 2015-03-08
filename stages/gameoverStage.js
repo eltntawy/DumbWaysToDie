@@ -41,8 +41,9 @@ var gameoverStage = {
 
     },
     startGameAgain : function () {
-        globals.score = 0;
-        globals.lives = 3;
+
+    	globals.score = 0;
+        globals.lives =3;
         var nextLevel = globals.stages[game.rnd.integerInRange(0, globals.stages.length - 1)];
         game.state.start(nextLevel);
     }

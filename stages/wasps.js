@@ -59,10 +59,11 @@ var waspsStage = {
         // and hiding it from player
         this.lose_anim.alpha = 0;
 	},
-
+	endstage:false,
 	update : function() {
-		if (this.beeskilled <= 0) {
+		if (this.beeskilled <= 0 && !this.endstage) {
 			this.winning();
+			this.endstage=true;
 		}
 	},
 	//winning
@@ -76,6 +77,7 @@ var waspsStage = {
 
 	        this.won = true;
 	    }
+
 	},
 	//loosing
 	loosing : function() {
