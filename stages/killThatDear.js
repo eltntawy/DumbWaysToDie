@@ -1,12 +1,5 @@
 
 var killThatDearStage = {
-    changeCut: true,
-    cutX: 0,
-    cutY: 0,
-    cutNumber: 0,
-    cutCount: 1,
-
-    letters: ['Q', 'A', 'L', 'H','B','R','I', 'P'],
 
     preload: function(){
         game.load.image('cut', 'assets/killThatDear/cut.png');
@@ -15,7 +8,14 @@ var killThatDearStage = {
 
     create: function(){
         game.stage.backgroundColor = "#89d14f";
+
+        this.letters = ['Q', 'A', 'L', 'H','B','R','I', 'P'];
         this.win = false;
+        this.changeCut = true;
+        this.cutX = 0;
+        this.cutY = 0;
+        this.cutNumber = 0;
+        this.cutCount = 0;
 
         game.physics.startSystem(Phaser.Physics.ARCADE);
 
@@ -67,11 +67,9 @@ var killThatDearStage = {
 
             this.bloodTimer.start();
 
-            this.cutKeyChar = this.letters[game.rnd.integerInRange(0, globals.stages.length - 1)];
+            this.cutKeyChar = this.letters[game.rnd.integerInRange(0, this.letters.length - 1)];
+            console.log(this.cutKeyChar);
 
-            //this.cutKeyChar = game.rnd.integerInRange(65, 90);
-
-            //var cutChar = String.fromCharCode(this.cutKeyChar);
 
             var cutKey = game.add.text(this.cutX, this.cutY, this.cutKeyChar, style);
 
@@ -164,6 +162,7 @@ var killThatDearStage = {
         }
         else{
             globals.score -= 50;
+            globals.lives--;
             game.state.start('scoreStage');
         }
     },

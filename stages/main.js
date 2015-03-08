@@ -31,8 +31,8 @@ game.state.add('killThatDear', killThatDearStage);
 // globals
 var globals = {
 	// add your stage to this stages array to make the game choose randomly from it
-    stages: ['electricityStage', 'forkStage', 'runningStage', 'spaceStage', 'trainStage', 'waspsStage','dontPressTheButtonStage', 'pokeTheBearStage', 'killThatDear'],
-    //stages: ['dontPressTheButtonStage'],
+    stages: ['electricityStage', 'killThatDear', 'forkStage', 'runningStage', 'spaceStage', 'trainStage', 'waspsStage','dontPressTheButtonStage', 'pokeTheBearStage'],
+    //stages: ['killThatDear'],
     score: 0,
     lives: 3 ,
     duration : 5,

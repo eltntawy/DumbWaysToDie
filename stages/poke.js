@@ -143,6 +143,7 @@ var pokeTheBearStage = {
         }
         else{
             globals.score -= 50;
+            globals.lives --;
             game.state.start('scoreStage');
         }
     },
