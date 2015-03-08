@@ -1,12 +1,16 @@
 var waspsStage = {
-	preload : function() {
-		game.load.image('sad', 'assets/wasps/sad.png');
-		game.load.image('wasp', 'assets/wasps/Wasp.png');
+	won : false,
 
-		game.load.atlasJSONHash('win_anim', 'assets/wasps/win_anim.png', 'assets/wasps/win_anim.json');
+	preload : function() {
+		// game.load.image('sad', 'assets/wasps/sad.png');
+		// game.load.image('wasp', 'assets/wasps/Wasp.png');
+
+		// game.load.atlasJSONHash('win_anim', 'assets/wasps/win_anim.png', 'assets/wasps/win_anim.json');
+		// game.load.atlasJSONHash('lose_anim', 'assets/wasps/lose_anim.png', 'assets/wasps/lose_anim.json');
 	},
 
 	create : function() {
+		this.won = false;
 		//  A simple background for our game
 		game.add.sprite(0, 0, 'sad');
 		//game.add.sprite(0, 0, 'sky');
@@ -48,6 +52,12 @@ var waspsStage = {
         this.win_anim.animations.add('win_anim');
         // and hiding it from player
         this.win_anim.alpha = 0;
+
+        // added animation of losing here because it doesn't play if added elsewhere
+        this.lose_anim = this.add.sprite(0, 0, 'lose_anim');
+        this.lose_anim.animations.add('lose_anim');
+        // and hiding it from player
+        this.lose_anim.alpha = 0;
 	},
 	endstage:false,
 	update : function() {
@@ -58,22 +68,26 @@ var waspsStage = {
 	},
 	//winning
 	winning : function() {
-		globals.score += 100;
-        globals.difficulty++;
-		this.win_anim.alpha = 1;
-        
-        this.win_anim.animations.play('win_anim');
-        
-        
-        game.time.events.add(Phaser.Timer.SECOND * 1.7, this.endStage, this);
-        
-        
+		if (! this.won) {
+			globals.score += 100;
+			this.win_anim.alpha = 1;
+	        
+	        this.win_anim.animations.play('win_anim');
+	        game.time.events.add(Phaser.Timer.SECOND * 1.7, this.endStage, this);
+
+	        this.won = true;
+	    }
+
 	},
 	//loosing
 	loosing : function() {
 		globals.score -= 50;
-        globals.lives --;
-		this.endStage();
+		globals.lives --;
+
+		this.lose_anim.alpha = 1;
+        
+        this.lose_anim.animations.play('lose_anim');
+        game.time.events.add(Phaser.Timer.SECOND * 2.5, this.endStage, this);
 	},
 	killbee : function(item) {
 		item.kill();
