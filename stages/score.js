@@ -78,7 +78,13 @@ var scoreStage = {
 	},
     endStage: function() {
         if(globals.lives > 0) {
-            var nextLevel = globals.stages[game.rnd.integerInRange(0, globals.stages.length - 1)];
+        	// this is for random next level
+            // var nextLevel = globals.stages[game.rnd.integerInRange(0, globals.stages.length - 1)];
+
+            // this is for stages playing in order
+            var nextLevel = globals.stages[globals.order];
+            globals.order = (globals.order + 1) % globals.stages.length;
+
             game.state.start(nextLevel);
         } else {
             game.state.start('gameoverStage');

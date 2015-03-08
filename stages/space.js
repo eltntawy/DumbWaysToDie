@@ -1,8 +1,8 @@
 var spaceStage = {
 	preload : function() {
-		game.load.image('astronaut', 'assets/space/astronaut.png');
-		game.load.image('asteroid', 'assets/space/asteroid.png');
-		game.load.image('helmet', 'assets/space/helmet.png');
+		// game.load.image('astronaut', 'assets/space/astronaut.png');
+		// game.load.image('asteroid', 'assets/space/asteroid.png');
+		// game.load.image('helmet', 'assets/space/helmet.png');
 	},
 
 	create : function() {
@@ -55,10 +55,14 @@ var spaceStage = {
 	},
 	//loosing
 	loosing : function() {
+		globals.score -= 50;
+		globals.lives--;
+		
 		this.endStage();
 	},
 	//winnig
 	catch_helmet : function() {
+		globals.score += 100;
 		this.endStage();
 	},
 	// time allocated for stage

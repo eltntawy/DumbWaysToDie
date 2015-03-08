@@ -48,7 +48,7 @@ var dontPressTheButtonStage = {
         this.preloadBar.scale.y = 3;
 
         // set the time after which the game ends
-        game.time.events.add(Phaser.Timer.SECOND * globals.duration, this.endStage, this);
+        this.winEvent = game.time.events.add(Phaser.Timer.SECOND * globals.duration, this.endStage, this);
 
         // moves duration bar
         game.time.events.repeat(Phaser.Timer.SECOND / 20, globals.duration * 20, this.decreaseTimer, this);
@@ -83,18 +83,19 @@ var dontPressTheButtonStage = {
         var failAnimation = fail.animations.add('animate', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
             31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57], 10, false, this.endStage);
 
-        failAnimation.killOnComplete = true;
-        failAnimation.onComplete.add(function () {
-            globals.score -= 50;
-            globals.lives--;
-            game.state.start('scoreStage');
-        });
+        // failAnimation.killOnComplete = true;
+        game.time.events.remove(this.winEvent);
+        
 
         fail.animations.play('animate');
+        failAnimation.onComplete.add(function () {
+            globals.score -= 50;
+            globals.lives --;
+            game.state.start('scoreStage');
+        });
     },
     endStage: function () {
-
-        globals.score=100;
+        globals.score += 100;
         game.state.start('scoreStage');
 
     },

@@ -33,7 +33,7 @@ var menuStage = {
         this.background = game.add.tileSprite(0, 0, 800, 600, 'station');
         // background.anchor.setTo(0.5,0.5);
 
-        this.btn = game.add.button(game.world.centerX, game.world.height - 100, 'playButtonUnpressed',this.startGame);
+        this.btn = game.add.button(game.world.centerX, game.world.height - 100, 'playButtonUnpressed',this.startGame, this);
         this.btn.anchor.setTo(0.5,0.5);
 
         this.soundBtn = game.add.button(game.world.width - 100, game.world.height - 100, 'soundUnpressed',this.toggleSound);
@@ -47,6 +47,10 @@ var menuStage = {
 
         
     },
+
+    // use this if you want stages to appear in order
+    order: 0,
+
     startGame : function () {
         /**************************************************************************************/
         // start the game stage
@@ -60,8 +64,19 @@ var menuStage = {
         //game.state.start('scoreStage');
         //game.state.start('spaceStage');
         // game.state.start('waspsStage');
-        var nextLevel = globals.stages[game.rnd.integerInRange(0, globals.stages.length - 1)];
+        // game.state.start('trainStage');
+        // game.state.start('dontPressTheButtonStage');
+
+        // make levels choose randomly
+        // var nextLevel = globals.stages[game.rnd.integerInRange(0, globals.stages.length - 1)];
+
+        // make levels choose in order
+        console.log(this.order);
+        var nextLevel = globals.stages[globals.order];
+        globals.order ++;
+
         game.state.start(nextLevel);
+
         /**************************************************************************************/
         // logger
         console.log('menuStage : gameStage is started');

@@ -18,7 +18,7 @@ var preloadStage = {
         /**************************************************************************************/
         game.load.spritesheet('button_up','assets/dontpressthebutton/press_me.png',201, 71);
 
-
+        // dontPressTheButton
         game.load.image('dontpressthebuttonBackground', 'assets/dontpressthebutton/Dont_press_the_red_button_app.png');
         game.load.atlas('dontpressthebuttonfail', 'assets/dontpressthebutton/fail.png', 'assets/dontpressthebutton/fail.json');
 
@@ -42,12 +42,36 @@ var preloadStage = {
         game.load.atlas('electricitySuccess', 'assets/Electricity/work.png', 'assets/Electricity/work.json');
         game.load.atlas('electricityFail', 'assets/Electricity/fire.png','assets/Electricity/fire.json');
 
+        // fork
+        game.load.image('fork', 'assets/forkStage/fork.png');
+        game.load.image('toaster', 'assets/forkStage/toaster.png');
+        game.load.atlasJSONHash('animLosing', 'assets/forkStage/anim.png', 'assets/forkStage/anim.json');
 
+        // running
+        game.load.image('runner', 'assets/runningStage/runner.png');
+        game.load.image('hiddenButton', 'assets/runningStage/hiddenButton.png');
+        game.load.image('bg', 'assets/runningStage/bg.jpg');
+        game.load.atlasJSONHash('run_anim', 'assets/runningStage/run_anim.png', 'assets/runningStage/run_anim.json');
+
+        // wasps
+        game.load.image('sad', 'assets/wasps/sad.png');
+        game.load.image('wasp', 'assets/wasps/Wasp.png');
+        game.load.atlasJSONHash('win_anim', 'assets/wasps/win_anim.png', 'assets/wasps/win_anim.json');
+        game.load.atlasJSONHash('lose_anim', 'assets/wasps/lose_anim.png', 'assets/wasps/lose_anim.json');
+
+        // space
+        game.load.image('astronaut', 'assets/space/astronaut.png');
+        game.load.image('asteroid', 'assets/space/asteroid.png');
+        game.load.image('helmet', 'assets/space/helmet.png');
+
+
+        // score
         game.load.image('scoreBackground', 'assets/score/background.png')
         game.load.atlas('playerDance', 'assets/score/dance.png', 'assets/score/dance.json');
         game.load.image('playerDie', 'assets/score/die.png');
         game.load.image('logo','assets/dwtd_logo.png');
 
+        // main menu
         game.load.image('playButtonUnpressed', 'assets/menu/playButtonUnpressed.png');
         game.load.image('playButtonPressed', 'assets/menu/playButtonPressed.png');
 

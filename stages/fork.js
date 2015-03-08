@@ -1,13 +1,16 @@
 var forkStage = {
-    preload: function() {
-        game.load.image('fork', 'assets/forkStage/fork.png');
-        game.load.image('toaster', 'assets/forkStage/toaster.png');
+    lost: false,
 
-        game.load.atlasJSONHash('animLosing', 'assets/forkStage/anim.png', 'assets/forkStage/anim.json');
+    preload: function() {
+        // game.load.image('fork', 'assets/forkStage/fork.png');
+        // game.load.image('toaster', 'assets/forkStage/toaster.png');
+
+        // game.load.atlasJSONHash('animLosing', 'assets/forkStage/anim.png', 'assets/forkStage/anim.json');
     },
 
     create: function() {
         game.physics.startSystem(Phaser.Physics.ARCADE);
+        this.lost = false;
 
         game.stage.backgroundColor = "#34dbdb";
         this.fork = game.add.sprite(game.world.centerX, game.world.centerY, 'fork');
@@ -52,18 +55,19 @@ var forkStage = {
         game.physics.arcade.collide(this.fork, this.left_toaster, this.collisionHandler);
         game.physics.arcade.collide(this.fork, this.right_toaster, this.collisionHandler);
 
+        // loosing conditions
         if (game.physics.arcade.overlap(this.fork, this.right_toaster)) {
-            this.endStage();
             this.losingAnimation();
         }
-
         if (game.physics.arcade.overlap(this.fork, this.left_toaster)) {
-            this.endStage();
             this.losingAnimation();
         }
 
+        // winning condition
         if (this.fork.body.position.y < -720) {
             console.log("win");
+            globals.score += 100;
+            this.endStage();
         }
     },
 
@@ -71,10 +75,19 @@ var forkStage = {
     duration: 5,
 
     losingAnimation: function() {
-        this.anim.alpha = 1;
-        
-        this.anim.animations.play('animLosing');
-        game.time.events.add(Phaser.Timer.SECOND * 1.7, this.endStage, this);
+        if(! this.lost) {
+            globals.score -= 50;
+            globals.lives --;
+
+            this.anim.alpha = 1;
+            
+            var animationObj = this.anim.animations.play('animLosing');
+            animationObj.onComplete.add(this.endStage, this);
+            //animationObj.onAnimationComplete.add(this.endStage);
+
+            // game.time.events.add(Phaser.Timer.SECOND * 10.7, this.endStage, this);
+        }
+        this.lost = true;
     },
 
     endStage: function() {

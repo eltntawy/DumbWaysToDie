@@ -1,13 +1,16 @@
 var waspsStage = {
-	preload : function() {
-		game.load.image('sad', 'assets/wasps/sad.png');
-		game.load.image('wasp', 'assets/wasps/Wasp.png');
+	won : false,
 
-		game.load.atlasJSONHash('win_anim', 'assets/wasps/win_anim.png', 'assets/wasps/win_anim.json');
-		game.load.atlasJSONHash('lose_anim', 'assets/wasps/lose_anim.png', 'assets/wasps/lose_anim.json');
+	preload : function() {
+		// game.load.image('sad', 'assets/wasps/sad.png');
+		// game.load.image('wasp', 'assets/wasps/Wasp.png');
+
+		// game.load.atlasJSONHash('win_anim', 'assets/wasps/win_anim.png', 'assets/wasps/win_anim.json');
+		// game.load.atlasJSONHash('lose_anim', 'assets/wasps/lose_anim.png', 'assets/wasps/lose_anim.json');
 	},
 
 	create : function() {
+		this.won = false;
 		//  A simple background for our game
 		game.add.sprite(0, 0, 'sad');
 		//game.add.sprite(0, 0, 'sky');
@@ -64,13 +67,21 @@ var waspsStage = {
 	},
 	//winning
 	winning : function() {
-		this.win_anim.alpha = 1;
-        
-        this.win_anim.animations.play('win_anim');
-        game.time.events.add(Phaser.Timer.SECOND * 1.7, this.endStage, this);
+		if (! this.won) {
+			globals.score += 100;
+			this.win_anim.alpha = 1;
+	        
+	        this.win_anim.animations.play('win_anim');
+	        game.time.events.add(Phaser.Timer.SECOND * 1.7, this.endStage, this);
+
+	        this.won = true;
+	    }
 	},
 	//loosing
 	loosing : function() {
+		globals.score -= 50;
+		globals.lives --;
+
 		this.lose_anim.alpha = 1;
         
         this.lose_anim.animations.play('lose_anim');
